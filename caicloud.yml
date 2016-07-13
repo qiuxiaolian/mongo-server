@@ -21,7 +21,7 @@ integration:
       image: mongo:3.0.5
       command: mongod
       
-  image: golang:1.5.3
+  image: golang:1.6
   env:
     - GOPATH=/go
   commands: 
