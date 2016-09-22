@@ -4,7 +4,7 @@ build:
   
 deploy:
   - application: mongo-server
-    cluster:1e73520d-f7ab-4998-b169-41b8c122342b
+    cluster: 1e73520d-f7ab-4998-b169-41b8c122342b
     partition: test
     containers:
     - mongo-server
