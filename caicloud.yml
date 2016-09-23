@@ -8,10 +8,10 @@ deploy:
     partition: test
     containers:
     - mongo-server
-  #- application: mongo-server
-  #  cluster: 4ac93603-f099-418a-bd0c-15d120dfe66b
-  #  partition: test
-  #  containers:
-  #  - mongo-server3
-  #  - mongo-server2
+  - application: mongo-server
+    cluster: 4ac93603-f099-418a-bd0c-15d120dfe66b
+    partition: test
+    containers:
+    - mongo-server3
+    - mongo-server2
 
