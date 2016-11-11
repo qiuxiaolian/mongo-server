@@ -1,14 +1,5 @@
 
 build:
   dockerfile_name: Dockerfile
-  
-deploy:
-  - type: kubernetes #caicloud_claas
-    host: 61.160.41.197
-    token: 01f9bd544e0e1a102027d534ddd90149a17dde6fd73ce98cc46ad94cc404e420d638b9e02f2bae320027fdd9ab7b1e3590605cb39cc0f21dab482459a36ae710
-    application: mongo-server
-    cluster: 1e73520d-f7ab-4998-b169-41b8c122342b
-    partition: test
-    containers:
-    - mongo-server
+
 
